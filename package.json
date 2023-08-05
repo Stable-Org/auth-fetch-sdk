@@ -1,0 +1,19 @@
+{
+  "name": "@stable-org/auth-fetch-sdk",
+  "version": "0.0.3",
+  "description": "OpenAPI client for @stable-org/auth-fetch-sdk",
+  "author": "OpenAPI-Generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stable-Org/auth-fetch-sdk.git"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.0"
+  }
+}
